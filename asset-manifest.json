@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e426bd7e.css",
+    "main.js": "/portfolio/static/js/main.c5f48fef.js",
+    "static/media/matlab.mp4": "/portfolio/static/media/matlab.87dfcba14d0fff6b2254.mp4",
+    "static/media/fem-1.mp4": "/portfolio/static/media/fem-1.a663ecf2fb6f43e2944e.mp4",
+    "static/media/impeller.mp4": "/portfolio/static/media/impeller.087e6b30ebbd285c5bb6.mp4",
+    "static/media/exhaust.mp4": "/portfolio/static/media/exhaust.05cb6aff2674cbe0175a.mp4",
+    "static/media/turbolader.mp4": "/portfolio/static/media/turbolader.6be9a644bb5e50eedcb1.mp4",
+    "static/media/fem-2.mp4": "/portfolio/static/media/fem-2.a5056ebeac4d7e968470.mp4",
+    "index.html": "/portfolio/index.html",
+    "main.e426bd7e.css.map": "/portfolio/static/css/main.e426bd7e.css.map",
+    "main.c5f48fef.js.map": "/portfolio/static/js/main.c5f48fef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e426bd7e.css",
+    "static/js/main.c5f48fef.js"
+  ]
+}
