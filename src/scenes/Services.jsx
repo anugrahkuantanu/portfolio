@@ -19,7 +19,6 @@ const Services = () => {
           <p className="font-playfair font-semibold text-4xl mb-5">
             MY <span className="text-blue">SERVICES</span>
           </p>
-        <LineGradient width="mx-auto w-3/5" />
         <p className="mt-10">
           Just write me an E-Mail for the price.
         </p>
