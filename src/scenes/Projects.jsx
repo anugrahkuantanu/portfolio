@@ -64,15 +64,6 @@ const Projects = () => {
             <source src={require('../assets/fem-2.mp4')} type="video/ogg"/>
           </video>
         </div>
-
-        {/*<div>
-          <video width="auto" height="auto" controls>
-            <source src={require('../assets/matlab.mp4')} type="video/ogg"/>
-          </video>
-        </div>
-      */}
-
-
       </div>
     </section>
   );
