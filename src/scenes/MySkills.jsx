@@ -116,14 +116,22 @@ const MySkills = ({color}) => {
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         EDP
                       </p>
-                      <p className="font-playfair mb-3">MS-Office, PowerBI, Knime, Tableau</p>                    
+                      <p className="font-playfair mb-3">PowerBI, Knime, Tableau, MS-Office.</p>                    
                       <p className="font-playfair font-semibold mb-3 text-tael">
-                        Others
+                        Graphic design
                       </p>
                       <p className="font-playfair mb-3">Adobe Photoshop, InDesign, Lightroom</p>
+                      <p className="font-playfair font-semibold mb-3 text-tael">
+                        Power Lifting
+                      </p>
+                      <p className="font-playfair mb-3">Benchpress 100 kg, Deadlift 180 kg, and Squat 140 kg</p>
                       </div>
                       
                       <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                      <p className="font-playfair font-semibold mb-3 text-tael">
+                      2023 - current
+                      </p>
+                      <p className="font-playfair mb-3">CTO of bbuddy.ai</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
                       2023 - current
                       </p>

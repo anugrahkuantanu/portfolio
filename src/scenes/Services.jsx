@@ -27,7 +27,7 @@ const Services = () => {
       {/* EXPERIENCES */}
       <div className="grid grid-col-1 md:grid-cols-3 md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="rounded-[20px] mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-start p-16 mt-24
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
@@ -47,7 +47,7 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="rounded-[20px] mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-start p-16 mt-24
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
@@ -67,7 +67,7 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="rounded-[20px] mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-start p-16 mt-24
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
