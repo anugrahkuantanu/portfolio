@@ -131,9 +131,9 @@ const MySkills = ({color}) => {
                       <p className="font-playfair font-semibold mb-3 text-tael">
                       2023 - current
                       </p>
-                      <p className="font-playfair mb-3">CTO of bbuddy.ai</p>
+                      <p className="font-playfair mb-3">Co founder and CTO of bbuddy.ai</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
-                      2023 - current
+                      2023
                       </p>
                       <p className="font-playfair mb-3">Internship as scientist at Bosch</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
