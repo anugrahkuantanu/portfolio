@@ -238,7 +238,7 @@ const MySkills = ({color}) => {
             </div>
             <div >
             <p className="px-2">
-            While building my company's AI in the LLM domain, I not only gained significant knowledge and
+            While building my company in the LLM domain, I not only gained significant knowledge and
              experience in data science and machine learning but also became proficient in various tools for
               data processing and visualization. My preferred tools for these tasks are Python and Power BI.
           </p>
