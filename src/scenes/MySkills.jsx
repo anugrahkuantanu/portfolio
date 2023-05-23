@@ -131,7 +131,7 @@ const MySkills = ({color}) => {
                       <p className="font-playfair font-semibold mb-3 text-tael">
                       2023 - current
                       </p>
-                      <p className="font-playfair mb-3">Co founder and CTO of bbuddy.ai</p>
+                      <p className="font-playfair ">Co founder and CTO of <a className="hover:opacity-50 transition duration-500 text-tael" href="http://bbuddy.ai/">bbuddy.ai</a></p> 
                       <p className="font-playfair font-semibold mb-3 text-tael">
                       2023
                       </p>
