@@ -67,7 +67,7 @@ const Services = () => {
         </motion.div>
 
         <motion.div
-          className="rounded-[20px] mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-start p-16 mt-24
+          className="rounded-[20px] mx-auto relative bg-yellow max-w-[400px] h-[400px] md:h-[350px] flex flex-col justify-start p-16 mt-24
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
