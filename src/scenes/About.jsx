@@ -15,19 +15,19 @@ const About = ({ setSelectedPage }) => {
       <div className="basis-2/5 z-10 mt-16 md:mt-16 flex justify-center">
         {isAboveLarge ? (
           <div
-            className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20
+            className="relative z-0 ml-20 before:absolute before:-top-2 before:-left-2 rounded-[10px]
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[800px]"
+              className="hover:filter hover:saturate-100 transition duration-500 z-10 rounded-[10px] w-full max-w-[400px] md:max-w-[800px]"
               src="assets/user.png"
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+            className="hover:filter hover:saturate-100 transition duration-500 z-10 rounded-[10px] w-full max-w-[400px] md:max-w-[600px]"
             src="assets/user.png"
           />
         )}
