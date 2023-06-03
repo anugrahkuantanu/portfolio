@@ -5,13 +5,14 @@ const AnimatedText = () => {
 
   return (
     <div>
-      <h1 className="mt-5 mb-3 text-xl md:text-4xl text-center md:text-start font-playfair">Hi there!
+      <h1 className="mt-5 mb-3 text-xl md:text-4xl text-center md:text-start font-playfair md:flex alignItems-start justifyContent-start">
+        Hi there! I'm&nbsp;
           <Typewriter
             options={{
                 autoStart: true,
                 loop: true,
-                delay: 100,
-                strings: ['I\'m a scientist','I\'m an engineer', 'I\'m an entrepreneur', 'I\'m a developer']
+                delay: 150,
+                strings: ['a scientist','an engineer', 'an entrepreneur', 'a developer', 'a lover and a figther']
             }}
         />
       </h1>
