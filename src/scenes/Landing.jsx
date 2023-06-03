@@ -34,7 +34,7 @@ const Landing = ({ setSelectedPage }) => {
       </div>
 
       {/* MAIN TEXT */}
-      <div className="z-30 basis-3/5 mt-12 md:mt-40">
+      <div className="z-30 basis-3/5 mt-1 md:mt-40">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -46,7 +46,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center mt-1 md:mt-40 md:text-start">
+          <p className="text-6xl font-playfair z-10 text-center mt-12 md:mt-40 md:text-start">
             Anugrah {""}
             <span
               className="xs:relative xs:text-blue xs:font-semibold z-20"
