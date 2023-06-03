@@ -9,6 +9,7 @@ import useMediaQuery from "./hooks/useMediaQuery";
 import { useEffect, useState } from "react";
 import Services from "./scenes/Services";
 import { motion } from "framer-motion";
+import About from "./scenes/About";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -47,6 +48,16 @@ function App() {
           onViewportEnter={() => setSelectedPage("home")}
         >
           <Landing setSelectedPage={setSelectedPage} />
+        </motion.div>
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full ">
+        <motion.div
+          margin="0 0 -500px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+          <About />
         </motion.div>
       </div>
       <LineGradient />

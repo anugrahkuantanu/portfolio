@@ -2,6 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import AnimatedText from "../hooks/AnimatedText";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -45,7 +46,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
+          <p className="text-6xl font-playfair z-10 text-center mt-1 md:mt-40 md:text-start">
             Anugrah {""}
             <span
               className="xs:relative xs:text-blue xs:font-semibold z-20"
@@ -53,21 +54,7 @@ const Landing = ({ setSelectedPage }) => {
               Kuantanu
             </span>
           </p>
-
-          <p className="mt-5 mb-3 text-sm text-center md:text-start font-playfair">
-          I am a highly motivated and ambitious individual, dedicated to both fitness and personal growth. 
-          Each day at 6am, you can find me at the gym, striving to push my boundaries and improve my overall wellbeing. 
-          Alongside my commitment to fitness, I am also actively pursuing a successful future for myself. As a current mechanical 
-          engineering student, I have taken the initiative to start my own company, showcasing my entrepreneurial drive and passion 
-          for innovation. Balancing both my studies and business responsibilities has helped me develop a strong work ethic, and a deep 
-          appreciation for the value of time management.
-          <br/>In my free time, I am always eager to expand my skill set and stay up-to-date with emerging trends in my field. I have a keen 
-          interest in machine learning and website development, which allows me to continuously challenge myself and remain competitive in my industry. 
-          Through my academic and professional experiences, I have developed a strong foundation in various areas of mechanical engineering, including CAD,
-           CFD, and FEM. This expertise, combined with my passion for the field, makes me a valuable asset to any team.
-           <br/>Overall, my drive, dedication, and expertise make me a strong candidate for success in the field of mechanical engineering. I am eager to continue pushing myself, 
-           expanding my knowledge, and contributing to the industry in meaningful ways.
-          </p>
+          <AnimatedText />
         </motion.div>
 
         {/* CALL TO ACTIONS */}

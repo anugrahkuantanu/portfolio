@@ -96,35 +96,31 @@ const MySkills = ({color}) => {
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         CAD
                       </p>
-                      <p className="font-playfair mb-3">NX10, Inventor, PTC Creo, Solidworks.</p>
+                      <p className="font-playfair mb-3">NX10, Inventor, PTC Creo and Solidworks.</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         CFD and FEM
                       </p>
-                      <p className="font-playfair mb-3">Numeca, Comsol, Ansys, Comsol, LS-Dyna.</p>                    
+                      <p className="font-playfair mb-3">Numeca, Comsol, Ansys, Comsol and LS-Dyna.</p>                    
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Modelling
                       </p>
-                      <p className="font-playfair mb-3">Dymola, Matlab and Simulink, Python.</p>                    
+                      <p className="font-playfair mb-3">Dymola, Matlab and Simulink.</p>                    
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Programming
                       </p>
-                      <p className="font-playfair mb-3">Python, Java, HTML, CSS, JS, React JS, SQL, MonggoDB, Flutter, Docker, Rasa.</p>
+                      <p className="font-playfair mb-3">Python, Java, HTML, CSS, JS, React JS, SQL, MonggoDB, Flutter, Docker, Rasa, and OpenPLC.</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Operating System
                       </p>
-                      <p className="font-playfair mb-3">MacOS, Kali-Linux, Parrot OS, Debian, Rasberry PI, Windows 10</p>                    
+                      <p className="font-playfair mb-3">MacOS, Kali-Linux, Parrot OS, Debian, Rasberry PI, and Windows 10</p>                    
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         EDP
                       </p>
-                      <p className="font-playfair mb-3">PowerBI, Knime, Tableau, MS-Office.</p>                    
+                      <p className="font-playfair mb-3">PowerBI, Knime, Tableau, MS-Office, Power query and VBA-Programming.</p>                    
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Graphic design
                       </p>
                       <p className="font-playfair mb-3">Adobe Photoshop, InDesign, Lightroom</p>
-                      <p className="font-playfair font-semibold mb-3 text-tael">
-                        Power Lifting
-                      </p>
-                      <p className="font-playfair mb-3">Benchpress 100 kg, Deadlift 180 kg, and Squat 140 kg</p>
                       </div>
                       
                       <div className={openTab === 2 ? "block" : "hidden"} id="link2">
