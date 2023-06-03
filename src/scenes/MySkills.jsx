@@ -3,7 +3,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import React from "react";
 
-const MySkills = ({color}) => {
+const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   const [openTab, setOpenTab] = React.useState(1);
   return (
@@ -36,8 +36,8 @@ const MySkills = ({color}) => {
                     className={
                       "font-playfair font-semibold py-10" +
                       (openTab === 1
-                        ? "text-white bg-" + color + "-600"
-                        : "text-600 ")
+                        ? " text-tael" // Add "bg-red-600" for red background when openTab is 1
+                        : " text-600 ") // Add "text-600" for default text color
                     }
                     onClick={e => {
                       e.preventDefault();
@@ -55,8 +55,8 @@ const MySkills = ({color}) => {
                 className={
                   "font-playfair font-semibold py-10" +
                   (openTab === 2
-                    ? "text-white bg-600"
-                    : "text-600 ")
+                   ? " text-tael" // Add "bg-red-600" for red background when openTab is 1
+                   : " text-600 ") // Add "text-600" for default text color
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -74,8 +74,8 @@ const MySkills = ({color}) => {
                 className={
                   "font-playfair font-semibold py-10" +
                   (openTab === 3
-                    ? "text-white bg-600"
-                    : "text-600 ")
+                    ? " text-tael"
+                    : " text-600 ")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -100,6 +100,8 @@ const MySkills = ({color}) => {
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Programming
                       </p>
+                      <p className="font-playfair mb-3">Python, Java, HTML, CSS, JS, React JS, SQL, MonggoDB, Flutter, Docker, Rasa, and OpenPLC.</p>
+                      
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         CAD
                       </p>
@@ -108,7 +110,6 @@ const MySkills = ({color}) => {
                         CFD and FEM
                       </p>
                       <p className="font-playfair mb-3">Numeca, Comsol, Ansys and LS-Dyna.</p>   
-                      <p className="font-playfair mb-3">Python, Java, HTML, CSS, JS, React JS, SQL, MonggoDB, Flutter, Docker, Rasa, and OpenPLC.</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Operating System
                       </p>
@@ -197,7 +198,7 @@ const MySkills = ({color}) => {
                 </div>
               </div>
               <div >
-                <p className="font-playfair px-2">
+                <p className="font-playfair px-2 text-justify">
                   During my initial internship at Bosch, I successfully applied my skills
                   in Matlab and Python to develop simulations and models that resulted in
                   a product generating big revenue for the company.
@@ -231,7 +232,7 @@ const MySkills = ({color}) => {
           </div>
             </div>
             <div >
-            <p className="font-playfair px-2">
+            <p className="font-playfair px-2 text-justify">
             While building my company in the LLM domain, I gained extensive knowledge in machine learning and AI. 
             Additionally, I became proficient in Power BI and Tableau for data visualization. 
             My preferred tools are Python and Power BI for data processing and visualization.
@@ -265,7 +266,7 @@ const MySkills = ({color}) => {
           </div>
             </div>
             <div >
-            <p className="font-playfair px-2">
+            <p className="font-playfair px-2 text-justify">
             In addition to my side projects and freelance work in app and web development, I also have the
              responsibility of developing our company's app as the CTO. Therefore, I am always seeking out new 
              technologies and expanding my skillset to ensure that we are utilizing the latest and most effective
@@ -282,11 +283,5 @@ const MySkills = ({color}) => {
   );
 };
 
-//export default MySkills;
+export default MySkills;
 
-export default function TabsRender() {
-  return (
-    <> <MySkills color="red" />
-    </>
-  );
-}
