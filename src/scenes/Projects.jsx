@@ -24,10 +24,10 @@ const Projects = () => {
             <LineGradient width="w-2/3" />
           </div>
         </div>
-        <p className="mt-10 mb-5">
+        <p className="font-playfair mt-10 mb-5">
         These are some projects that I work on in my free time, and there are several other projects for companies that I am unable to publish due to data protection regulations.
         </p>
-        <a className="flex justify-center mb-20 text-red" href="http://bbuddy.ai/">Also check bbuddy.ai</a>
+        <a className="font-playfair flex justify-center mb-20 text-red" href="http://bbuddy.ai/">Also check bbuddy.ai</a>
       </motion.div>
       
       <div className="App grid grid-cols-1 md:grid-cols-3 space-x-4 space-y-4">

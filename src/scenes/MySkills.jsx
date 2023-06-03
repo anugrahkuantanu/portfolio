@@ -94,20 +94,20 @@ const MySkills = ({color}) => {
                   <div className="tab-content tab-space">
                     <div className={openTab === 1 ? "block" : "hidden"} id="link1">
                       <p className="font-playfair font-semibold mb-3 text-tael">
-                        CAD
-                      </p>
-                      <p className="font-playfair mb-3">NX10, Inventor, PTC Creo and Solidworks.</p>
-                      <p className="font-playfair font-semibold mb-3 text-tael">
-                        CFD and FEM
-                      </p>
-                      <p className="font-playfair mb-3">Numeca, Comsol, Ansys, Comsol and LS-Dyna.</p>                    
-                      <p className="font-playfair font-semibold mb-3 text-tael">
                         Modelling
                       </p>
                       <p className="font-playfair mb-3">Dymola, Matlab and Simulink.</p>                    
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Programming
                       </p>
+                      <p className="font-playfair font-semibold mb-3 text-tael">
+                        CAD
+                      </p>
+                      <p className="font-playfair mb-3">NX10, Inventor, PTC Creo and Solidworks.</p>
+                      <p className="font-playfair font-semibold mb-3 text-tael">
+                        CFD and FEM
+                      </p>
+                      <p className="font-playfair mb-3">Numeca, Comsol, Ansys and LS-Dyna.</p>   
                       <p className="font-playfair mb-3">Python, Java, HTML, CSS, JS, React JS, SQL, MonggoDB, Flutter, Docker, Rasa, and OpenPLC.</p>
                       <p className="font-playfair font-semibold mb-3 text-tael">
                         Operating System
@@ -197,13 +197,11 @@ const MySkills = ({color}) => {
                 </div>
               </div>
               <div >
-                <p className="px-2">
+                <p className="font-playfair px-2">
                   During my initial internship at Bosch, I successfully applied my skills
                   in Matlab and Python to develop simulations and models that resulted in
-                  a product generating over half a million dollars in revenue for the company.
-                  
+                  a product generating big revenue for the company.
                 </p>
-              
               </div>
             </div>
         </motion.div>
@@ -233,10 +231,10 @@ const MySkills = ({color}) => {
           </div>
             </div>
             <div >
-            <p className="px-2">
-            While building my company in the LLM domain, I not only gained significant knowledge and
-             experience in data science and machine learning but also became proficient in various tools for
-              data processing and visualization. My preferred tools for these tasks are Python and Power BI.
+            <p className="font-playfair px-2">
+            While building my company in the LLM domain, I gained extensive knowledge in machine learning and AI. 
+            Additionally, I became proficient in Power BI and Tableau for data visualization. 
+            My preferred tools are Python and Power BI for data processing and visualization.
           </p>
             </div>
           </div>
@@ -267,7 +265,7 @@ const MySkills = ({color}) => {
           </div>
             </div>
             <div >
-            <p className="px-2">
+            <p className="font-playfair px-2">
             In addition to my side projects and freelance work in app and web development, I also have the
              responsibility of developing our company's app as the CTO. Therefore, I am always seeking out new 
              technologies and expanding my skillset to ensure that we are utilizing the latest and most effective

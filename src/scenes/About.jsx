@@ -15,7 +15,7 @@ const About = ({ setSelectedPage }) => {
       <div className="basis-2/5 z-10 mt-16 md:mt-16 flex justify-center">
         {isAboveLarge ? (
           <div
-            className="relative z-0 ml-20 before:absolute before:-top-2 before:-left-2 rounded-[10px]
+            className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10 before:rounded-[10px]
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
             <img
