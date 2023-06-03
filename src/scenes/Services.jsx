@@ -9,7 +9,7 @@ const Services = () => {
         className="md:w-1/3 text-center md:text-left"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, x: -50 },
@@ -31,7 +31,7 @@ const Services = () => {
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.6 }}
           variants={{
             hidden: { opacity: 0, scale: 0.8 },
@@ -51,7 +51,7 @@ const Services = () => {
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
           variants={{
             hidden: { opacity: 0, scale: 0.8 },

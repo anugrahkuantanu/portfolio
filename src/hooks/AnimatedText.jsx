@@ -10,7 +10,7 @@ const AnimatedText = () => {
             options={{
                 autoStart: true,
                 loop: true,
-                delay: 30,
+                delay: 100,
                 strings: ['I\'m a scientist','I\'m an engineer', 'I\'m an entrepreneur', 'I\'m a developer']
             }}
         />
