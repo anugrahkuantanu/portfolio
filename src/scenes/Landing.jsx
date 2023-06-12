@@ -74,7 +74,7 @@ const Landing = ({ setSelectedPage }) => {
               hover:bg-blue hover:text-white transition duration-500"
             href="http://bbuddy.ai/"
           >
-            My Company</a>
+            My Startup</a>
           <a
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
             href="mailto:anugrah.kuantanu@bbuddy.ai"

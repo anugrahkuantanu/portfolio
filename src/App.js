@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import Services from "./scenes/Services";
 import { motion } from "framer-motion";
 import About from "./scenes/About";
+import Contact from "./scenes/Contact";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -90,6 +91,17 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("contact")}
+        >
+          <Contact/>
+        </motion.div>
+      </div>
+      <LineGradient />
+
       <Footer />
     </div>
   );
