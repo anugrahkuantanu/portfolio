@@ -35,11 +35,11 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/anugrahkuantanu@gmail.com"
+            action="https://formsubmit.co/b9876419163d97b56d49a94eb1987d00"
             method="POST"
           >
             <input
-              className="w-full bg-white font-semibold placeholder-opaque-black p-3 rounded-[10px] font-playfair"
+              className="w-full bg-deep-blue font-semibold placeholder-opaque-black p-3 rounded-[10px] font-playfair"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -55,7 +55,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-white font-semibold placeholder-opaque-black p-3 mt-5 rounded-[10px] font-playfair"
+              className="w-full bg-deep-blue font-semibold placeholder-opaque-black p-3 mt-5 rounded-[10px] font-playfair"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -71,7 +71,7 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-white font-semibold placeholder-opaque-black p-3 mt-5 rounded-[10px] font-playfair"
+              className="w-full bg-deep-blue font-semibold placeholder-opaque-black p-3 mt-5 rounded-[10px] font-playfair"
               name="message"
               placeholder="MESSAGE"
               rows="4"
