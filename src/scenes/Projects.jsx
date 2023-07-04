@@ -30,10 +30,21 @@ const Projects = () => {
         <a className="font-playfair flex justify-center mb-20 text-red" href="http://bbuddy.ai/">Also check bbuddy.ai</a>
       </motion.div>
       
+      <div className="App grid grid-cols-1 md:grid-cols-3 mb-12 space-y-4 md:mb-48 justify-items-center allign-center">
+        <div className="image-container items-center justify-items-center">
+          <img src={require('../assets/homescreen.png')} alt="Website Screenshot" className="image h-4/5 md:h-4/5" />
+        </div>
+        <div className="image-container items-center justify-items-center">
+          <img src={require('../assets/goals.png')} alt="Website Screenshot" className="image h-4/5 md:h-4/5" />
+        </div>
+        <div className="image-container items-center justify-items-center">
+          <img src={require('../assets/progress.png')} alt="Website Screenshot" className="image h-4/5 md:h-4/5"/>
+        </div>
+      </div>
+
+
+
       <div className="App grid grid-cols-1 md:grid-cols-3 space-x-4 space-y-4">
-
-
-
         <div>
           <video width="auto" height="auto" controls>
             <source src={require('../assets/impeller.mp4')} type="video/ogg"/>

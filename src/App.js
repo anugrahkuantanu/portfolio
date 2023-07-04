@@ -36,72 +36,73 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md:h-full">
-        {isDesktop && (
-          <DotGroup
-            selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage}
-          />
-        )}
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("home")}
-        >
-          <Landing setSelectedPage={setSelectedPage} />
-        </motion.div>
+      <div className="w-5/6 max-w-[1200px] mx-auto mb-4">
+        
+        <div className="w-5/6 mx-auto md:h-full">
+          {isDesktop && (
+            <DotGroup
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+          )}
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("home")}
+          >
+            <Landing setSelectedPage={setSelectedPage} />
+          </motion.div>
+        </div>
+        <LineGradient />
+        <div className="w-5/6 mx-auto md:h-full ">
+          <motion.div
+            margin="0 0 -500px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("skills")}
+          >
+            <About />
+          </motion.div>
+        </div>
+        <LineGradient />
+        <div className="w-5/6 mx-auto md:h-full ">
+          <motion.div
+            margin="0 0 -500px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("skills")}
+          >
+            <MySkills />
+          </motion.div>
+        </div>
+        <div className="w-5/6 mx-auto">
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("projects")}
+          >
+            <Projects />
+          </motion.div>
+        </div>
+        <LineGradient />
+        <div className="w-5/6 mx-auto md:h-full">
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("services")}
+          >
+            <Services/>
+          </motion.div>
+        </div>
+        <LineGradient />
+        <div className="w-5/6 mx-auto md:h-full">
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("contact")}
+          >
+            <Contact/>
+          </motion.div>
+        </div>
       </div>
-      <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full ">
-        <motion.div
-          margin="0 0 -500px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("skills")}
-        >
-          <About />
-        </motion.div>
-      </div>
-      <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full ">
-        <motion.div
-          margin="0 0 -500px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("skills")}
-        >
-          <MySkills />
-        </motion.div>
-      </div>
-      <div className="w-5/6 mx-auto">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("projects")}
-        >
-          <Projects />
-        </motion.div>
-      </div>
-      <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("services")}
-        >
-          <Services/>
-        </motion.div>
-      </div>
-      <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("contact")}
-        >
-          <Contact/>
-        </motion.div>
-      </div>
-      <LineGradient />
-
       <Footer />
     </div>
   );
